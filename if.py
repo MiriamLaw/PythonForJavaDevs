@@ -1,6 +1,12 @@
 # and, not, or
 # True, False
 
+#if True:
+#   print("This will always run.")
+
+#if False:
+#    print("This will never run.")
+
 raining = False
 temperature = 18
 
@@ -13,3 +19,14 @@ else:
 
 mood = "good" if not raining else "bad"
 print(mood)
+
+
+
+x = 3
+
+if x > 0:
+    print("Positive number")
+
+while x > 0:
+    print(x)
+    x -= 1
